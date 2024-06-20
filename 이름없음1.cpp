@@ -1,57 +1,78 @@
-//#include <stdio.h>
+//#include <stdio.h> 
 //
-//int main(int argc, char*argvs[])
-//{
-//	printf("\'발명왕\'토마스에디슨은 다음과 같이말했다.\n") ;
-//	printf("\"천재는1%%의 영감과 99%%의 노력으로 이루어진다.\"\n") ;	
-//	return 0 ; 
-//}
-//#include <stdio.h>
-//
-//int main(int argc, char*argvs[])
-//{
-//	printf("%d 학년%d ",6,3 ) ;
-//	printf("%f cm %1f kg", 157.56,45.89 ) ;
-//	printf("나의 이름은%s 이고 혈액형은%c 형입니다.", "홍길동", 'A' ) ;
-//	return 0 ;
+//int main( ){
+//	
+//	int a ;
+//	float f1 ;
+//	char ch ;
+//	
+//	a = 15 ;
+//	f1 = 123.456 ;
+//	ch = 'A' ;
+//	printf("%d\n",a);
+//	printf("%f\n",f1);
+//	printf("%c\n",ch);
 //	
 //}
 //#include <stdio.h>
-//
 //int main(){
-//    
-//    int garde = 6;
-//    int classs = 3;
-//    int number = 22;
-//	printf("%d학년%d반 %d ",garde,classs,number ) ;
-//	return 0 ;
-//}
-//#include <stdio.h>
-
-//int main(int argc, char*argvs[])
-//{
-//	printf("%d년%d월 %s \n",2016,3,"알파고 승리" ) ;
-//	printf("%dD %s \n",3,"프린터로 집 짓기" ) ;
-//	printf("%s = %.2lf\n", "원주율",3.14  ) ;
-//	printf("%.3lf km %s\n", 42.195, "마라톤" ) ;
-//	return 0 ;
+//	
+//	int num ;
+//	printf("숫자를 하나 입력해주세요. :");
+//	scanf("%d",&num);
+//	printf("%d\n",num); 
 //	
 //}
+//#include <stdio.h>
+//int main(){
+//	
+//	float eye_1 ;
+//	float eye_r ;
+//	printf("양쪽  시력을 입력해주세요.:");
+//	scanf("%f %f",&eye_1,&eye_r);
+//	printf("왼쪽 시력 : %f 오른쪽 시력 : %f", eye_1,eye_r);
+//}
+//#include <stdio.h>
+//int main(){
+//	
+//	int a;
+//	int f1;
+//	int ch;
+//	
+//  scanf("%d %d %d",&a,&f1,&ch);
+//	printf("%d학년 %d반 %d 번호\n",a,f1,ch) ;
+//	
+//}
+//#include <stdio.h>
+//int main(){
+//	
+//    float a ;
+//	float f1 ; 
+//	
+//    scanf("%f %f",&a,&f1);
+//	printf("%f키\n",a);
+//    printf("%f몸무게\n",f1);
+//	
+//}
+//#include <stdio.h>
+//int main(){
+//	
+//	int a, b;
+//	scanf("%d %d",&a,&b);
+//	printf("%d\n",a+b);
+//	printf("%d\n",a-b);
+//	printf("%d\n",a*b);
+//	printf("%d\n",a/b);
+//	printf("%d\n",a%b);
+//} 
 #include <stdio.h>
-
-int main(int argc, char*argvs[])
-{
-	printf("%s %d %s %d \n", "정수",153,"과",-153 ) ;
-	printf("%s %.3lf %s %.3lf \n","실수",42.195,"와",-42.195 ) ;
-	printf("%s %c %c \n","문자",\'A',\'a'  ) ;
-	printf("%s %s %s \n","문자열", "Artificial lntelligence와 ", "마빈 민스키" ) ;
-	printf("10진수: %d, 8진수: %o , 16진수: %x",255,255,255) ;
-	return 0 ;
+int main(){
+	
+	char ddd;
+	scanf("%c",&ddd);
+	printf("%c",ddd);
 	
 }
-
-
-
 
 
 
