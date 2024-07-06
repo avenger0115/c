@@ -1,74 +1,72 @@
 //#include <stdio.h>
 //int main()
 //{
-//   int a;
-//   int f1;
-//   int ch;
-//   
-//   scanf("%d %d %d",&a,&f1,&ch ) ;
-//   printf("%d년%d월%d일\n",a,f1,ch ) ;
-//   
-//   
+//	int a,b;
+//	scanf("%d %d",&a,&b);
+//	printf("%d\n",a+b);
 //	
 //}
 //#include <stdio.h>
 //int main()
 //{
+//	printf("\"천재는 1%%의영감과99%%의노력으로 이루어진다.\"\n");
+//	return 0 ; 
+//	
+//}
+//#include <stdio.h>
+//int main()
+//{  
 //	int a,b ;
 //	scanf("%d %d",&a,&b);
 //    printf("%d + %d = %d\n",a,b,a+b);
 //    printf("%d - %d = %d\n",a,b,a-b);
 //    printf("%d * %d = %d\n",a,b,a*b);
 //    printf("%d / %d = %d\n",a,b,a/b);
-//	printf("%d %% %d = %d\n",a,b,a%b);
-//
 //	return 0 ;
-//	
 //}
 //#include <stdio.h>
 //int main()
 //{
-//	float a,b ;
-//	scanf("%f %f",&a,&b);
-//    printf("%f + %f = %f\n",a,b,a+b);
-//    printf("%f - %f = %f\n",a,b,a-b);
-//    printf("%f * %f = %f\n",a,b,a*b);
-//    printf("%f / %f = %f\n",a,b,a/b);
+//	int a,b,c,d;
+//	scanf("%d,&a");
 //	
-//	return 0 ;
-//	
-//}
-//#include <stdio.h>
-//int main()
-//{
-//	printf("%d\n",10/3);
-//	printf("%d\n",10/3.0);
-//	printf("%f\n",10/3.0);	
-//	
-//}
-//#include <stdio.h>
-//int main()
-//{
-//	int a;
-//	scanf("%d",&a);
-//	printf("%d\n",a%10+a/10);
+//	b = a/100;
+//	c = a%100/10;
+//	a = a%10;
+//	printf("%d + %d + %d = %d",b,c,d,b+c+a);
 //
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	printf("%d\n",(10>5) && (8<3));
+//	printf("%d\n",(10>5) || (8<3));
+//	printf("%d\n",!(10>5));
 //}
 #include <stdio.h>
 int main()
 {
-	int a;
-	scanf("%d",&a);
-	printf("%d\n",a/100+a/10%10+a%10);
-    printf("%d\n",(a/100)*(a/10%10)*(a%10));
+   int res;
+	
+   res=0&&0;
+   printf("%d\n",res);
+   res=0&&1;
+   printf("%d\n",res);
+   res=1&&0;
+   printf("%d\n",res);
+   res=1&&1;
+   printf("%d\n",res);
+   
+   res=0||0;
+   printf("%d\n",res);
+   res=0||1;
+   printf("%d\n",res);
+   res=1||0;
+   printf("%d\n",res);
+   res=1||1;
+   printf("%d\n",res);
+   
+   printf("%d\n", !res);
 }
-
-
-
-
-
-
-
-
 
 
